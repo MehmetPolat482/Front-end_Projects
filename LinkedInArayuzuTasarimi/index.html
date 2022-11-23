@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css File -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="FontAwesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <title>LinkedIn UI Clone</title>
+</head>
+<body>
+    <!-- Header Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="svg/icons8-linkedin.svg" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <form class="form-inline my-2 my-lg-0 search">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1" style="cursor:pointer;"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+                <input type="text" class="form-control" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+          </form>
+        <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active mr-3">
+            <a class="nav-link" href="#"
+              ><i class="fas fa-home fa-lg" style="color: black"></i>
+              <div class="menutext" style="color: black">Home</div>
+            </a>
+          </li>
+          <li class="nav-item active mr-4">
+            <a class="nav-link" href="#">
+                <i class="fas fa-user-friends fa-lg"></i>
+              <div class="menutext">My Contact</div>
+            </a>
+          </li>
+          <li class="nav-item active mr-2">
+            <a class="nav-link" href="#">
+                <i class="fas fa-briefcase fa-lg"></i>
+              <div class="menutext">Job Postings</div>
+            </a>
+          </li>
+          <li class="nav-item active mr-1">
+            <a class="nav-link" href="#">
+                <i class="fas fa-comment-dots fa-lg"></i>
+              <div class="menutext">Messaging</div>
+            </a>
+          </li>
+          <li class="nav-item active mr-1">
+            <a class="nav-link" href="#">
+                <i class="fas fa-bell fa-lg"></i>
+              <div class="menutext">Notifications</div>
+            </a>
+          </li>
+          <li class="nav-item active border-left">
+            <a class="nav-link ml-4 mr-2" href="#"><i class="fas fa-th fa-lg"></i>
+                <div class="menutext">Work</div>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><i class="fas fa-chalkboard fa-lg"></i>
+                <div class="menutext">Post a Job</div>
+            </a>
+          </li>
+        </ul>
+    </div>
+    </div>
+    </nav>
+    <!-- Header End -->
+    <!-- Section Start -->
+    <div class="section">
+        <!-- Sidebar Start -->
+        <div class="sidebar">
+            <div class="sidebar-top">
+                <img src="img/1.jpg" alt=""><br>
+                <i class="fa-solid fa-user-tie"></i>
+                <p>
+                    <a href="#" target="_blank" style="color: #212529; font-size: 21px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Mehmet Polat</a>
+                </p>
+            <div style="margin-bottom: 10px; color: #000000; font-size: 12px; font-family: 'Courier New', Courier, monospace; font-weight: bold;">
+                Frontend Developer
+            </div>  
+            </div>
+            <div class="sidebar-stats">
+                <div class="sidebar-stat">
+                    <span class="view">Who Viewed You </span>
+                    <span class="view" style="color: #0a66c2">2,456</span>
+                </div>
+                <div class="sidebar-stat">
+                    <span class="view">Viewed on Post </span>
+                    <span class="view" style="color: #0a66c2">2,687</span>
+                </div>
+            </div>
+            <div class="sidebar-bottom">
+                <p style="font-size:14px; font-weight: bold;" >Recent</p>
+                <hr>
+                <div class="sidebar_recentitem">
+                    <span class="sidebar_hash">#</span>
+                    <p>Programming</p>
+                </div>
+                <div class="sidebar_recentitem">
+                    <span class="sidebar_hash">#</span>
+                    <p>Software Engineering</p>
+                </div>
+                <div class="sidebar_recentitem">
+                    <span class="sidebar_hash">#</span>
+                    <p>Design</p>
+                </div>
+                <div class="sidebar_recentitem">
+                    <span class="sidebar_hash">#</span>
+                    <p>Developer</p>
+                </div>
+                <div class="sidebar_recentitem">
+                    <span class="sidebar_hash">#</span>
+                    <p>3d Design</p>
+                </div>
+            </div>
+        </div>
+        <!-- Sidebar End -->
+        <!-- Feed Start -->
+        <div class="feed">
+            <div class="feed_inputContainer">
+                <div class="feed_input"> 
+                    <form>
+                        <input type="text" name="text" style="width:500px; height: 40px; border:2px solid gray; border-radius: 20px;" placeholder="Share on Post">
+                    </form>
+                </div>
+                <div class="feed_inputOptions">
+                    <div class="inputOption">
+                        <div class="input"><i class="fa-solid fa-camera" style="color:#0a66c2; font-size: 25px;"></i>
+                            <span class="textFeed">Photo</span></div>
+                        <div class="input"><i class="fa-solid fa-video" style="color:orange; font-size: 25px;"></i>
+                            <span class="textFeed">Video</span></div>
+                        <div class="input"><i class="fa-solid fa-calendar-days" style="color: gray; font-size: 25px;"></i>
+                            <span class="textFeed">Event</span></div>
+                        <div class="input"><i class="fa-solid fa-newspaper" style="color: green; font-size: 25px;"></i>
+                            <span class="textFeed">Write Article</span></div>
+                    </div>
+                </div>
+            </div>
+            
+             <!-- Feed End -->
+             <div class="post">
+                <div class="post_header">
+                    <i class="fa-solid fa-user-tie" style="font-size: 25px;"></i>
+                    <div class="post-info">
+                        <h2>Dylan Dixon</h2>
+                        <p>Design Engineering</p>
+                    </div>
+                </div>
+                <div class="post_body">
+                    <p style="font-family:'Courier New', Courier, monospace ; color:black">When you make up your mind, nothing stands in your way.</p>
+                </div>
+                <div class="feed_inputOptions">
+                    <div class="inputOption">
+                        <div class="input"><i class="fa-solid fa-thumbs-up" style="color:gray; font-size: 25px;"></i>
+                            <span class="textFeed">Like</span></div>
+                        <div class="input"><i class="fa-solid fa-comment" style="color:gray; font-size: 25px;"></i>
+                            <span class="textFeed">Comment</span></div>
+                        <div class="input"><i class="fa-solid fa-share-nodes" style="color:gray; font-size: 25px;"></i>
+                            <span class="textFeed">Share</span></div>
+                        <div class="input"><i class="fa-solid fa-paper-plane" style="color:gray; font-size: 25px;"></i></i>
+                            <span class="textFeed">Send</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post_header">
+                    <i class="fa-solid fa-user-tie" style="font-size: 25px;"></i>
+                    <div class="post-info">
+                        <h2>Alexander Gabe</h2>
+                        <p>Doctor</p>
+                    </div>
+                </div>
+                <div class="post_body">
+                    <p style="font-family:'Courier New', Courier, monospace ; color:black">You may dance like no one’s watching, but everyone’s watching because you are mesmerizing.</p>
+                </div>
+                <div class="feed_inputOptions">
+                    <div class="inputOption">
+                        <div class="input"><i class="fa-solid fa-thumbs-up" style="color:gray; font-size: 25px;"></i>
+                            <span class="textFeed">Like</span></div>
+                        <div class="input"><i class="fa-solid fa-comment" style="color:gray; font-size: 25px;"></i>
+                            <span class="textFeed">Comment</span></div>
+                        <div class="input"><i class="fa-solid fa-share-nodes" style="color:gray; font-size: 25px;"></i>
+                            <span class="textFeed">Share</span></div>
+                        <div class="input"><i class="fa-solid fa-paper-plane" style="color:gray; font-size: 25px;"></i></i>
+                            <span class="textFeed">Send</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post_header">
+                    <i class="fa-solid fa-user-tie" style="font-size: 25px;"></i>
+                    <div class="post-info">
+                        <h2>Barney Jaden</h2>
+                        <p>Singer</p>
+                    </div>
+                </div>
+                <div class="post_body">
+                    <p style="font-family:'Courier New', Courier, monospace ; color:black">You are always learning new things and trying to better yourself. That is awesome.</p>
+                </div>
+                <div class="feed_inputOptions">
+                    <div class="inputOption">
+                        <div class="input"><i class="fa-solid fa-thumbs-up" style="color:gray; font-size: 25px;"></i>
+                            <span class="textFeed">Like</span></div>
+                        <div class="input"><i class="fa-solid fa-comment" style="color:gray; font-size: 25px;"></i>
+                            <span class="textFeed">Comment</span></div>
+                        <div class="input"><i class="fa-solid fa-share-nodes" style="color:gray; font-size: 25px;"></i>
+                            <span class="textFeed">Share</span></div>
+                        <div class="input"><i class="fa-solid fa-paper-plane" style="color:gray; font-size: 25px;"></i></i>
+                            <span class="textFeed">Send</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post_header">
+                    <i class="fa-solid fa-user-tie" style="font-size: 25px;"></i>
+                    <div class="post-info">
+                        <h2>Brenda Maddison</h2>
+                        <p>Architect</p>
+                    </div>
+                </div>
+                <div class="post_body">
+                    <p style="font-family:'Courier New', Courier, monospace ; color:black">Everyone gets knocked down sometimes; only people like you get back up again and keep going.</p>
+                </div>
+                <div class="feed_inputOptions">
+                    <div class="inputOption">
+                        <div class="input"><i class="fa-solid fa-thumbs-up" style="color:gray; font-size: 25px;"></i>
+                            <span class="textFeed">Like</span></div>
+                        <div class="input"><i class="fa-solid fa-comment" style="color:gray; font-size: 25px;"></i>
+                            <span class="textFeed">Comment</span></div>
+                        <div class="input"><i class="fa-solid fa-share-nodes" style="color:gray; font-size: 25px;"></i>
+                            <span class="textFeed">Share</span></div>
+                        <div class="input"><i class="fa-solid fa-paper-plane" style="color:gray; font-size: 25px;"></i></i>
+                            <span class="textFeed">Send</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Widgets Start -->
+        <div class="sidebar-right">
+          <div class="sidebar-top-right">
+              <h2>What you need to know now</h2> 
+              <i class="fa-solid fa-circle-info"></i>
+          </div>
+          <div class="sidebar_article">
+            <div class="sidebar_articleRight">
+              <h4>The Dow is About to Hit 20,000</h4>
+              <p>Top News-4500 Readers</p>
+            </div>
+            <div class="sidebar_articleRight">
+              <h4>What Today's Job Numbers Mean for You</h4>
+              <p>36 New Posts</p>
+            </div>
+            <div class="sidebar_articleRight">
+              <h4>How Healthcare Repeal Could Affect Your Workday - and Your Retirement</h4>
+              <p>Updated 10 mins ago</p>
+            </div>
+            <div class="sidebar_articleRight">
+              <h4>Economy Grew at Fastest Pace in Two Years</h4>
+              <p>Trending - 2M talking about this</p>
+            </div>
+            <div class="sidebar_articleRight">
+              <h4>#ChaseGreat </h4>
+              <p>Trending - 1,3M talking about this</p>
+            </div>
+          </div>  
+          <div class="card-header bg-white" style="font-size: 10px; font-weight: bold; color: gray;">
+            <span>Today's most watched tutorials</span>
+          </div>
+          <div class="card-title">
+            <ol style="color:black; font-size:8px">
+              <li>
+                The Six Morning Habits of High Perf...
+                <div style="font-weight: lighter; font-size: 10px; color: #5f5f5f;">Pete Mocakatais | How to be awesome at you...</div>
+              </li>
+              <li class="mt-2">
+                  Onconscious Blas
+                <div style="font-weight: lighter; font-size: 10px;color: #5f5f5f;"> Stacey Gordon</div>
+              </li>
+              <li class="mt-2">
+                Critical Thinking for Better Judgme...
+                <div style=" font-weight: lighter; font-size: 10px; color: #5f5f5f;">Becki Saltzman</div>
+              </li>
+            </ol>
+          </div>
+          <div class="text-center mt-3 ml-3">
+            <div
+              ><a href="https://about.linkedin.com/" class="link mr-3"
+                >About</a
+              ></div
+            >
+            <div
+              ><a
+                href="https://www.linkedin.com/accessibility?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.accessibility"
+                class="link mr-3"
+                >Accessibility</a
+              ></div
+            >
+            <div
+              ><a
+                href="https://www.linkedin.com/help/linkedin?trk=footer_d_flagship3_feed&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.help"
+                class="link"
+                >Help Center</a
+              ></div
+            >
+            <div><a href="" class="link mr-3">Privacy and Terms</a></div>
+            <div
+              ><a
+                href="https://www.linkedin.com/help/linkedin/answer/62931?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.ad_choices"
+                class="link"
+                >Advertising Preferences</a
+              ></div
+            >
+            <div
+              ><a
+                href="https://www.linkedin.com/ad/start?trk=n_nav_ads_rr&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BT6H7rzDzR%2FSQEvO%2BuBKdSw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_feed-compactfooter.advertising"
+                class="link"
+                >Advertisement</a
+              ></div
+            >
+            <div class="text-center" style="margin-top: 10px">
+              <img
+                src="https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg"
+                width="90px"
+                height="20px"
+              /><span style="font-size: 12px; margin-left: -15px"
+                >Linkedin Corporation © 2021</span
+              >
+            </div>
+          </div>
+      </div>
+
+        <!-- Post End -->
+    </div>
+    <!-- Section End -->
+</body>
+</html>

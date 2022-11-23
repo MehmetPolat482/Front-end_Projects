@@ -1,0 +1,46 @@
+@import url('http://fonts.cdnfonts.com/css/stop-climate-change');
+
+body{
+    background-color:antiquewhite;
+
+}
+
+.textName{
+    font-family: 'zai Stop Climate Change', sans-serif;
+    color:darkgoldenrod;
+    text-align: center;
+    top: 120px;
+    position: relative;
+    font-size: 35px;
+}
+
+.özlüSöz{
+    font-size: 50px;
+    text-align: center;
+    color: darkgoldenrod;
+    top: 100px;
+    position: relative;
+    font-family: 'zai Stop Climate Change', sans-serif;
+
+}
+.text2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'zai Stop Climate Change', sans-serif;
+    top: 200px;
+    position: relative;
+    color: darkgoldenrod;
+
+}
+.clock{
+    text-align: center;
+    color:darkorange;
+    font-family: 'zai Stop Climate Change', sans-serif;
+    top: 150px;
+    position: relative;
+    font-size: 45px;
+}
+strong{
+    text-decoration:underline;
+    color:darkgreen;
+}

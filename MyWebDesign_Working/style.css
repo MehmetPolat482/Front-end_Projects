@@ -1,0 +1,67 @@
+   body{
+	   margin:0;
+	   padding:0;
+	   background:url(bg.jpg);
+	   background-size:cover;
+   }
+   .box{
+	   border: 2px dashed white;
+	   width:450px;
+	   background:#003333;
+	   margin:auto;
+	   padding:40px;
+	   text-align:center;
+	   margin-top:2%;
+	   color:white;
+	   font-family:Comic Sans MS;
+   }
+   .box img{
+	   border-radius:50%;
+	   cursor:pointer;
+	   transition:0.5s;
+   }
+   .box img:hover{
+	   transform:scale(0.9);
+   }
+   .box h1{
+	   font-size:40px;
+	   letter-spacing:3px;
+	   font-weight:bold;
+   }
+   .box h4{
+	   font-size:13px;
+	   letter-spacing:3px;
+	   font-weight:bold;
+   }
+   .box p{
+	   text-align:justify;
+   }
+   ul{
+	   margin:0;
+	   padding:0;
+   }
+   .box li{
+	   display:inline-block;
+	   margin:8px;
+	   list-style:none;
+   }
+   .box li a{
+	   color:white;
+	   font-size:60px;
+	   transition: all ease-in-out 250ms;
+   }
+   .box li a:hover > i{
+	   transform:scale(0.8);
+   }
+   .box li.instagram a:hover{
+	   color:#E1306C;
+   }
+   .box li.telegram a:hover{
+	   color:#0088cc;
+   }
+   .box li.whatsapp a:hover{
+	   color:#25D366;
+   }
+   .box li.linkedin a:hover{
+	   color:#1666C5;
+   }

@@ -1,0 +1,769 @@
+@import url('http://fonts.cdnfonts.com/css/himagsikan');
+@import url('http://fonts.cdnfonts.com/css/cocogoose-compressed-trial');
+@import url('http://fonts.cdnfonts.com/css/zhan-ku-xiao-wei-ti');
+@import url('http://fonts.cdnfonts.com/css/tasiq');
+@import url('http://fonts.cdnfonts.com/css/bombardier');
+
+/* HOME HTML CSS START*/
+/* BODY PART */
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mainHome {
+    height: 100%;
+    background-image: url(img/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* TOP-NAVBAMENU PARTS */
+.mainHome img {
+    position: absolute;
+    width: 65px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.navMenuText {
+    font-family: '站酷小薇体', sans-serif;
+    font-size: 15px;
+    position: fixed;
+    width: 100%;
+    margin-left: 35%;
+    margin-right: 50%;
+    background-color: transparent;
+    height: 70px;
+    font-weight: bold;
+    display: flex;
+    color: black;
+    margin-top: 5px;
+    transition: 0.5s ease;
+    z-index: 1;
+}
+
+ul {
+    display: flex;
+    margin-top: 11px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    position: relative;
+    display: block;
+    color: black;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 25px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.menuActive i {
+    position: relative;
+    font-size: 12px;
+    margin-right: 8px;
+    text-align: center;
+    bottom: 1px;
+}
+
+.active,
+.menuActive:hover {
+    text-decoration: none;
+    background: black;
+    color: white;
+    box-shadow: 2px 2px 2px 0 black,
+        7px 7px 10px 0 black;
+}
+
+#menu-icon {
+    font-size: 30px;
+    display: none;
+}
+
+
+/* MAİN-TEXT PARTS*/
+.mainText {
+    position: relative;
+    left: 20%;
+    top: 300px;
+    width: 60%;
+}
+
+.mainHeadText {
+    position: relative;
+    width: 60%;
+    font-family: 'Himagsikan', sans-serif;
+    color: black;
+    text-align: left;
+}
+
+.mainMiddleText {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80%;
+    color: black;
+}
+
+p.middleText {
+    font-size: 25px;
+}
+
+.aboutMeButton button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.btnn {
+    background: none;
+    border: 2px solid gray;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    min-width: 160px;
+    cursor: pointer;
+    background-color: rgb(255, 0, 68);
+    transition: 0.4s linear;
+    box-shadow: 5px 5px 5px rgb(255, 0, 68);
+    color: white;
+}
+
+.btnn:hover {
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+/* HOME HTML CSS END */
+
+/* ABOUT HTML CSS START */
+
+.mainAbout {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/17580.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainAboutContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.aboutText {
+    color: black;
+    font-size: 18px;
+    width: 180%;
+    text-align: left;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mainImg img {
+    position: relative;
+    top: 100px;
+    right: 80px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.myStory {
+    margin-top: 150px;
+    text-align: left;
+    font-size: 35px;
+    color: black;
+    font-family: 'TASIQ', sans-serif;
+}
+
+.cv-File {
+    position: relative;
+    text-align: center;
+    border: 1px solid black;
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    top: 34rem;
+    right: 20rem;
+}
+
+.cv-File a {
+    color: black;
+    position: relative;
+    top: 5px;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.cv-File a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cv-File:hover {
+    color: white;
+    background-color: rgb(255, 0, 68);
+    cursor: pointer;
+}
+
+.contact-File {
+    position: relative;
+    text-align: center;
+    background-color: rgb(255, 0, 68);
+    border: 1px solid rgb(255, 0, 68);
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    top: 34rem;
+    right: 19rem;
+}
+
+.contact-File:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.contact-File a {
+    color: white;
+    position: relative;
+    top: 5px;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.contact-File a:hover {
+    text-decoration: none;
+    color: rgb(255, 0, 68);
+}
+
+/* ABOUT HTML CSS END */
+
+/* ACHIEVEMENT HTML CSS START */
+
+.mainAchievement {
+    height: 100%;
+    background-color: white;
+}
+
+.achievementSection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.achievementSectionItem {
+    position: relative;
+    margin-top: 50px;
+    padding-left: 50px;
+    width: 33%;
+    height: 250px;
+}
+
+.achievementSectionItem img {
+    width: 100%;
+    position: relative;
+    margin-top: 200px;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid #745b37;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+    transform: scale(1);
+    transition: 0.8s;
+}
+
+.achievementSectionItem img:hover {
+    transform: scale(1.5);
+    transition: 0.8s;
+    z-index: 2;
+
+}
+
+.aboutAchievement {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    color: black;
+    font-family: '站酷小薇体', sans-serif;
+    font-weight: bolder;
+}
+
+.aboutAchievement::after {
+    content: '';
+    width: 30px;
+    height: 3px;
+    display: block;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/* ACHİEVEMENT HTML CSS END */
+
+/* WORK HTML CSS START */
+.aboutWork {
+    width: 80%;
+    margin-left: 150px;
+}
+
+.imgWorkSection {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 100%;
+    height: 100%;
+}
+
+.imgWorkSection img {
+    position: absolute;
+    opacity: 1;
+    display: block;
+    border: 1px solid black;
+    width: 60%;
+    height: auto;
+    margin-left: 100px;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+
+.imgWorkSection:hover img {
+    transform: scale(1.1);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.imgWorkSection:hover .overlay {
+    opacity: 1;
+}
+
+.overlay {
+    position: relative;
+    opacity: 0;
+    margin-bottom: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+    left: 38%;
+    top: 16rem;
+    width: 60px;
+    height: auto;
+}
+
+.searchImage {
+    border: 1px solid black;
+    padding: 18px;
+    margin-right: 5px;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    cursor: pointer;
+}
+
+.searchImage:hover {
+    background-color: rgb(255, 0, 68);
+}
+
+.searchImage a {
+    color: black;
+}
+
+.searchImage a:hover {
+    color: #fff;
+}
+
+.linkImage {
+    border: 1px solid black;
+    padding: 18px;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    cursor: pointer;
+}
+
+.linkImage:hover {
+    background-color: rgb(255, 0, 68);
+}
+
+.linkImage a {
+    color: black;
+}
+
+.linkImage a:hover {
+    color: #fff;
+}
+
+/* WORK HTML CSS END */
+/* SKILLS HTML CSS START */
+
+.mainSkills {
+    position: relative;
+    height: 100%;
+    background-color: white;
+}
+
+.skillsAllItem {
+    height: 400px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 150px;
+    font-family: '站酷小薇体', sans-serif;
+    font-weight: bold;
+}
+
+.single-progress-item {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.single-progress-item p {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .3em;
+    margin-bottom: 0;
+    color: black;
+    text-align: center;
+    font-family: '站酷小薇体', sans-serif;
+}
+
+.bttn {
+    display: block;
+    height: 40px;
+    margin-left: 35%;
+    margin-top: 5px;
+    position: relative;
+    width: 100%;
+    padding-bottom: 30px;
+    cursor: pointer;
+    background: none;
+    color: rgb(255, 0, 68);
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(255, 0, 68);
+    box-shadow: inset 0 0 0 0 #f9e506;
+    font-size: 24px;
+    font-family: 'Bombardier', sans-serif;
+    transition: ease-out 0.3s;
+    outline: none;
+}
+
+.bttn:hover {
+    box-shadow: inset 100px 0 0 0 #f9e506;
+    cursor: pointer;
+    color: black;
+}
+
+/* SKILLS HTML CSS END */
+
+/* CONTACT ME HTML CSS START */
+
+.mainContactMe {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/25100.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.formMenu {
+    margin-top: 100px;
+}
+
+.socialMedia {
+    display: flex;
+    position: relative;
+    background-color: #171515;
+}
+
+.socialmedia a {
+    display: inline;
+    text-align: center;
+    font-size: 20px;
+    width: 35%;
+    height: 35%;
+    border-radius: 10%;
+    margin: 0 5px;
+    color: rgb(255, 255, 255);
+    transition: all .3s ease;
+}
+
+.socialmedia {
+    text-align: center;
+    position: relative;
+    height: 30px;
+    left: 36%;
+    top: 50px;
+}
+
+#ins {
+    padding: 10px 15px;
+    background-color: #833AB4;
+}
+
+#git {
+    padding: 10px 15px;
+    background-color: black;
+}
+
+#wht {
+    padding: 10px 15px;
+    background-color: #25d366;
+}
+
+#lkn {
+    padding: 10px 15px;
+    background-color: #0077b5;
+}
+
+#mail {
+    padding: 10px 15px;
+    background-color: rgb(253, 47, 47);
+}
+
+#hackr {
+    padding: 10px 15px;
+    background-color: rgb(34, 34, 34);
+}
+
+#disc {
+    padding: 10px 10px;
+    background-color: #7289da;
+}
+
+.copyright {
+    position: relative;
+    color: #777;
+    font-size: 17px;
+    left: 42%;
+    top: 60%;
+}
+
+/* CONTACT ME HTML CSS END */
+
+@media only screen and (max-width:1250px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .navMenuText {
+        position: relative;
+        right: -20px;
+    }
+
+    .navMenuText ul {
+        display: flex;
+        text-align: left;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        top: 10px;
+        right: 360px;
+        width: 170px;
+        border: 5px solid black;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    .navMenuText ul li {
+        margin-left: -65%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .navMenuText #menu-icon {
+        display: block;
+        position: relative;
+        left: 60%;
+        cursor: pointer;
+    }
+
+    .mainHome img {
+        position: absolute;
+        width: 45px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+}
+
+@media only screen and (max-width:900px) {
+    .navMenuText #menu-icon {
+        display: block;
+        position: relative;
+        left: 57%;
+        cursor: pointer;
+    }
+
+    .mainHeadText h1 {
+        font-size: 20px;
+    }
+
+    .aboutText {
+        position: relative;
+        left: 120px;
+        color: black;
+        font-size: 8px;
+        width: 200%;
+        text-align: left;
+        margin-top: 3px;
+        font-size: 20px;
+    }
+
+    .mainHeadText {
+        position: relative;
+        width: 180%;
+        font-family: 'Himagsikan', sans-serif;
+        color: black;
+        text-align: left;
+        right: 50px;
+    }
+
+    .mainMiddleText {
+        position: relative;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 100%;
+        color: black;
+        right: 50px;
+    }
+
+    p.middleText {
+        font-size: 30px;
+    }
+
+    .aboutMeButton button {
+        position: absolute;
+        top: 60%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .mainImg img {
+        width: 180%;
+        left: 1px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .myStory {
+        position: relative;
+        font-size: 40px;
+        left: 120px;
+    }
+
+    .cv-File {
+        position: relative;
+        text-align: center;
+        border: 1px solid black;
+        width: 180px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 50px;
+        top: 22rem;
+        right: 25rem;
+    }
+
+    .contact-File {
+        position: relative;
+        text-align: center;
+        background-color: rgb(255, 0, 68);
+        border: 1px solid rgb(255, 0, 68);
+        width: 180px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 50px;
+        top: 25rem;
+        right: 26rem;
+    }
+
+    .achievementSectionItem {
+        position: relative;
+        bottom: 160px;
+        left: 80px;
+        margin-top: 30px;
+        margin-left: 100px;
+        width: 45%;
+        padding: 10px;
+        height: 320px;
+    }
+
+    .imgWorkSection img {
+        position: absolute;
+        opacity: 1;
+        display: block;
+        border: 1px solid black;
+        width: 90%;
+        height: auto;
+        right: 220px;
+        border-radius: 10px;
+        transition: 0.5s ease;
+    }
+
+    .skillsAllItem {
+        position: relative;
+        height: 200px;
+        top: 220px;
+        text-align: center;
+    }
+
+    .aboutWork {
+        position: relative;
+        bottom: 80px;
+        margin-left: 120px;
+        margin-top: 150px;
+    }
+
+    .socialmedia {
+        text-align: center;
+        position: relative;
+        width: 680px;
+        height: 20px;
+        left: 25%;
+        top: 50px;
+    }
+
+    .copyright {
+        position: relative;
+        color: #777;
+        font-size: 22px;
+        left: -55%;
+        top: 50%;
+    }
+}
